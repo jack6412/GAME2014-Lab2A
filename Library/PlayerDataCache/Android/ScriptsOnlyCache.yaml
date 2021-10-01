@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ButtonPress
+    - GameControl
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -54,17 +55,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2678}
     - Class: 114
-      Script: {instanceID: 2912}
+      Script: {instanceID: 2914}
     - Class: 114
-      Script: {instanceID: 3220}
+      Script: {instanceID: 3222}
     - Class: 114
-      Script: {instanceID: 5836}
+      Script: {instanceID: 4322}
     - Class: 114
-      Script: {instanceID: 6182}
+      Script: {instanceID: 5838}
     - Class: 114
-      Script: {instanceID: 6742}
+      Script: {instanceID: 6184}
     - Class: 114
-      Script: {instanceID: 7396}
+      Script: {instanceID: 6744}
+    - Class: 114
+      Script: {instanceID: 7398}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -103,17 +106,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2678}
     - Class: 114
-      Script: {instanceID: 2912}
+      Script: {instanceID: 2914}
     - Class: 114
-      Script: {instanceID: 3220}
+      Script: {instanceID: 3222}
     - Class: 114
-      Script: {instanceID: 5836}
+      Script: {instanceID: 4322}
     - Class: 114
-      Script: {instanceID: 6182}
+      Script: {instanceID: 5838}
     - Class: 114
-      Script: {instanceID: 6742}
+      Script: {instanceID: 6184}
     - Class: 114
-      Script: {instanceID: 7396}
+      Script: {instanceID: 6744}
+    - Class: 114
+      Script: {instanceID: 7398}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -152,17 +157,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2678}
     - Class: 114
-      Script: {instanceID: 2912}
+      Script: {instanceID: 2914}
     - Class: 114
-      Script: {instanceID: 3220}
+      Script: {instanceID: 3222}
     - Class: 114
-      Script: {instanceID: 5836}
+      Script: {instanceID: 5838}
     - Class: 114
-      Script: {instanceID: 6182}
+      Script: {instanceID: 6184}
     - Class: 114
-      Script: {instanceID: 6742}
+      Script: {instanceID: 6744}
     - Class: 114
-      Script: {instanceID: 7396}
+      Script: {instanceID: 7398}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -572,6 +577,12 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
+      Hash: bf92655fc4412e46dcab4b72b2df2c1e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameControl
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -636,12 +647,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Tilemap.Extras.dll
     namespaceName: UnityEngine.Tilemaps
     className: AnimatedTile
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Waypoing
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
